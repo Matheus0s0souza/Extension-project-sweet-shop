@@ -1,0 +1,409 @@
+body {
+  background-color: #FADBBD;
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f3cfb1;
+
+  font-size: 30px;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: #452402;
+}
+
+.header-menu a:hover {
+  color: #3e7c58;
+  text-decoration: overline;
+}
+
+.list-menu {
+  list-style: none;
+  display: flex;
+
+}
+
+.list-menu li {
+  padding: 50px;
+}
+
+/*Sobre nós*/
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us h1 {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.about-us p {
+  font-size: 20px;
+}
+
+.our-history {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #452402;
+  color: #DDBE9F;
+  padding: 40px 70px
+}
+
+.mission {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: #452402;
+  padding: 40px 70px
+}
+
+.vision {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #452402;
+  color: #DDBE9F;
+  padding: 40px 70px
+}
+
+/* -------- CONFEITARIA -------- */
+.products-grid {
+  background-color: #f3cfb1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.products-grid img {
+  width: 25%;
+  border-radius: 10%;
+}
+
+.products-grid img {
+  padding: 27px;
+}
+
+.title-products-grid {
+  color: #3d1e00;
+  font-size: 34px;
+  margin-top: 20px;
+}
+
+.first-products-grid {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.second-products-grid {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+/*----------INSTAGRAM---------*/
+.container-instagram h1 {
+  font-size: 34px;
+  text-align: center;
+  padding: 20px;
+
+}
+
+
+/* -------- DIVISOR -------- */
+
+.separation-section-products-feedback {
+  background-color: #705745;
+  width: 100%;
+  height: 2px;
+  border-top-style: groove;
+  margin: 0;
+}
+
+/* -------- FEEDBACKS -------- */
+
+.feedback {
+  background-color: #FADBBD;
+  justify-content: center;
+  display: flex;
+}
+
+.title-feedback {
+  color: #3d1e00;
+  font-size: 34px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+/*------------forms-----------------------*/
+
+.class-input-form-container-message-client {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 10%;
+}
+
+.form-submit {
+  display: flex;
+  flex-flow: wrap;
+  margin-left: 110px;
+  gap: 20px;
+}
+
+.form-submit-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-size: 34px;
+}
+
+/* ---------- Input com textos ---------- */
+.input-form-style-class {
+
+  border-radius: 10px;
+  width: 240px;
+  height: 40px;
+
+}
+
+.nome-input {
+  font-size: 26px;
+  color: #3d1e00;
+}
+
+.assunto-input {
+  font-size: 26px;
+  color: #3d1e00;
+}
+
+.email-input {
+  font-size: 26px;
+  color: #3d1e00;
+}
+
+.msg-input {
+  font-size: 26px;
+  color: #3d1e00;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+
+.form-email {
+  margin: 50px 0px 50px 0px;
+}
+
+.form-email-title {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-size: 36px;
+  ;
+
+}
+
+#message-client {
+  border-radius: 20px;
+  height: 50px;
+  width: 100%;
+}
+
+.button {
+  align-items: anchor-center;
+  display: flex;
+
+}
+
+.button-submit {
+
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  background-color: #705745;
+  color: #FADBBD;
+  border-style: none;
+
+}
+
+button:hover {
+  animation-name: pulsar;
+  animation-duration: 2s;
+  /* Duração da animação */
+  animation-timing-function: ease-in-out;
+  background-color: #452402;
+}
+
+.Feedback-text {
+  font-size: 50px;
+}
+
+
+/* ---------- INSTAGRAM ---------- */
+
+
+/*-------------FOOTER----------------*/
+
+.background-static-cards-informations {
+  height: 90px;
+  background-color: #ADBCA9;
+  margin-top: 20px;
+
+}
+
+.cards-static-informations-all {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  max-width: 100%;
+  align-items: center;
+  margin: 10px 35px;
+  width: 90%;
+  bottom: 79px;
+  gap: 15px;
+  color: #DDBE9F;
+}
+
+.cards-informations {
+  height: 0;
+
+}
+
+.cards-static-informations {
+  background-color: #705745;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 80px 15px 30px;
+  display: flex;
+  font-size: 20px;
+}
+
+.cards-static-informations img {
+  width: 20%;
+  height: 25%;
+  padding: 0 0 0 10px;
+}
+
+.description-cards-static-informations {
+  padding: 10px;
+}
+
+.container-footer {
+  margin-top: 18%;
+  display: flex;
+  background-color: #705745;
+  gap: 30px;
+  padding: 10px 35px;
+  justify-content: space-between;
+  color: #DDBE9F;
+  padding: 20px;
+}
+
+.service-list li {
+  margin-bottom: 10px;
+}
+
+.service-list h1 {
+  color: #78b893;
+
+}
+
+.service-list li a {
+  text-decoration: none;
+  color: #DDBE9F;
+}
+
+.institutional-list li {
+  margin-bottom: 10px;
+}
+
+.institutional-list h1 {
+  color: #78b893;
+  margin-bottom: 5px;
+}
+
+.institutional-list li a {
+  text-decoration: none;
+  color: #DDBE9F;
+}
+
+.institutional-list li a:hover {
+  color: #78b893;
+  text-decoration: overline;
+}
+
+.social-media{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-media span{
+  display: flex;
+  gap: 20px;
+  margin: 10px 0px;
+}
+
+/*------------FOOTER--------------*/
+.cnpj-development-footer {
+  justify-content: center;
+  justify-content: space-between;
+  display: flex;
+  color: #705745;
+  padding: 12px;
+}
+
+.cnpj-development-footer p {
+  max-width: 100%;
+  font-size: 20px;
+}
+
+.cnpj-development-footer a {
+  text-decoration: none;
+  color: #705745;
+  max-width: 100%;
+  font-size: 10px;
+}
+
+.payment-methods {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  max-width: 100%;
+  width: 80%;
+}
+
+/*---------Button return menu----------*/
+
+a[href="#top"] {
+  background-color: #eafafa;
+  opacity: 0.5;
+  padding: 10px;
+  position: fixed;
+  top: 90%;
+  right: 40px;
+  border-radius: 10px;
+  transition: ease-in-out .2s;
+}
+
+a[href="#top"]:hover {
+  opacity: 1;
+  background-color: #f0f8ff;
+}
